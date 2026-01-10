@@ -28,5 +28,3 @@ Funksjon navn
 - 2GH.py: kommune_pie, kommune_top10
 
 1C2.arr og 2AB.arr kan ignoreres! 
-
-![sparrow](images/jar.png)
