@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="720" viewBox="0 0 880 720" font-family="Helvetica, Arial, sans-serif">
+  <rect width="880" height="720" rx="10" fill="#fbfaf7" stroke="#ddd8cf"/>
+  <text x="44" y="40" font-size="17" fill="#2b2b2b" font-weight="700">2GH.py: slik blir kommune_pie("Kristiansand", exc2) til et kakediagram</text>
+  <text x="44" y="60" font-size="13" fill="#6b6b6b">hvert steg er en linje i funksjonen, og bildet til høyre viser hva den linjen sitter igjen med</text>
+  <g>
+    <circle cx="57" cy="134" r="13" fill="#2b2b2b"/>
+  <text x="57" y="139.0" font-size="13" fill="#fbfaf7" font-weight="700" text-anchor="middle">1</text>
+  <text x="82" y="119.0" font-size="14" fill="#2b2b2b" font-weight="700">matched</text>
+  <text x="82" y="141.0" font-size="12.5" fill="#3f5b8b" font-family="ui-monospace, Menlo, Consolas, monospace">exc["Sted"].str.fullmatch(kommune)</text>
+  <text x="82" y="162.0" font-size="12.5" fill="#6b6b6b">en True/False-serie, en verdi per rad i arket</text>
+  <rect x="612" y="100.0" width="104" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="664.0" y="111.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Halden</text>
+  <rect x="716" y="100.0" width="44" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="738.0" y="111.65" font-size="9" fill="#6b6b6b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">False</text>
+  <rect x="612" y="117.0" width="104" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="664.0" y="128.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Moss</text>
+  <rect x="716" y="117.0" width="44" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="738.0" y="128.65" font-size="9" fill="#6b6b6b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">False</text>
+  <rect x="612" y="134.0" width="104" height="17" fill="#ffe3f4" stroke="#c9c3b8"/>
+  <text x="664.0" y="145.65" font-size="9" fill="#2b2b2b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Kristiansand</text>
+  <rect x="716" y="134.0" width="44" height="17" fill="#12b886" stroke="#c9c3b8"/>
+  <text x="738.0" y="145.65" font-size="9" fill="#ffffff" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">True</text>
+  <rect x="612" y="151.0" width="104" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="664.0" y="162.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Karmøy</text>
+  <rect x="716" y="151.0" width="44" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="738.0" y="162.65" font-size="9" fill="#6b6b6b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">False</text>
+  </g>
+  <line x1="44" y1="186" x2="836" y2="186" stroke="#e6e1d8"/>
+  <g>
+    <circle cx="57" cy="234" r="13" fill="#2b2b2b"/>
+  <text x="57" y="239.0" font-size="13" fill="#fbfaf7" font-weight="700" text-anchor="middle">2</text>
+  <text x="82" y="219.0" font-size="14" fill="#2b2b2b" font-weight="700">chosen</text>
+  <text x="82" y="241.0" font-size="12.5" fill="#3f5b8b" font-family="ui-monospace, Menlo, Consolas, monospace">exc.loc[matched[matched].index]</text>
+  <text x="82" y="262.0" font-size="12.5" fill="#6b6b6b">boolsk indeksering plukker ut den ene raden som traff</text>
+  <rect x="600.0" y="217.0" width="78" height="17" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="639.0" y="228.65" font-size="9" fill="#6b6b6b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Sted</text>
+  <rect x="600.0" y="234.0" width="78" height="17" fill="#ffe3f4" stroke="#c9c3b8"/>
+  <text x="639.0" y="245.65" font-size="9" fill="#2b2b2b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Kristiansand</text>
+  <rect x="678.0" y="217.0" width="34" height="17" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="695.0" y="228.65" font-size="9" fill="#6b6b6b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2015</text>
+  <rect x="678.0" y="234.0" width="34" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="695.0" y="245.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">78</text>
+  <rect x="712.0" y="217.0" width="34" height="17" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="729.0" y="228.65" font-size="9" fill="#6b6b6b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2016</text>
+  <rect x="712.0" y="234.0" width="34" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="729.0" y="245.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">80</text>
+  <rect x="746.0" y="217.0" width="20" height="17" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="756.0" y="228.65" font-size="9" fill="#6b6b6b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">…</text>
+  <rect x="746.0" y="234.0" width="20" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="756.0" y="245.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">…</text>
+  <rect x="766.0" y="217.0" width="34" height="17" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="783.0" y="228.65" font-size="9" fill="#6b6b6b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2023</text>
+  <rect x="766.0" y="234.0" width="34" height="17" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="783.0" y="245.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">85</text>
+  </g>
+  <line x1="44" y1="282" x2="836" y2="282" stroke="#e6e1d8"/>
+  <g>
+    <circle cx="57" cy="328" r="13" fill="#2b2b2b"/>
+  <text x="57" y="333.0" font-size="13" fill="#fbfaf7" font-weight="700" text-anchor="middle">3</text>
+  <text x="82" y="313.0" font-size="14" fill="#2b2b2b" font-weight="700">reduced_row</text>
+  <text x="82" y="335.0" font-size="12.5" fill="#3f5b8b" font-family="ui-monospace, Menlo, Consolas, monospace">reduce(lambda x,y: x+y, chosen.values.tolist())</text>
+  <text x="82" y="356.0" font-size="12.5" fill="#6b6b6b">raden flates ut til en liste, og pop(0) fjerner kommunenavnet</text>
+  <rect x="600.0" y="319.0" width="78" height="19" fill="#f3f0ea" stroke="#c9c3b8"/>
+  <text x="639.0" y="331.65" font-size="9" fill="#b9b2a6" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Kristiansand</text>
+  <line x1="605.0" y1="328.5" x2="673.0" y2="328.5" stroke="#e45756" stroke-width="1.6"/>
+  <text x="639.0" y="313.0" font-size="9.5" fill="#e45756" font-weight="700" text-anchor="middle">pop(0)</text>
+  <rect x="678.0" y="319.0" width="26" height="19" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="691.0" y="331.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">78</text>
+  <rect x="704.0" y="319.0" width="26" height="19" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="717.0" y="331.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">80</text>
+  <rect x="730.0" y="319.0" width="26" height="19" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="743.0" y="331.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">79</text>
+  <rect x="756.0" y="319.0" width="18" height="19" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="765.0" y="331.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">…</text>
+  <rect x="774.0" y="319.0" width="26" height="19" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="787.0" y="331.65" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">85</text>
+  </g>
+  <line x1="44" y1="374" x2="836" y2="374" stroke="#e6e1d8"/>
+  <g>
+    <circle cx="57" cy="420" r="13" fill="#2b2b2b"/>
+  <text x="57" y="425.0" font-size="13" fill="#fbfaf7" font-weight="700" text-anchor="middle">4</text>
+  <text x="82" y="405.0" font-size="14" fill="#2b2b2b" font-weight="700">reduced_col</text>
+  <text x="82" y="427.0" font-size="12.5" fill="#3f5b8b" font-family="ui-monospace, Menlo, Consolas, monospace">chosen.columns.difference(["Sted"])</text>
+  <text x="82" y="448.0" font-size="12.5" fill="#6b6b6b">kolonnenavnene uten Sted, altså de ni årstallene</text>
+  <rect x="611.0" y="411.0" width="40" height="19" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="631.0" y="423.65" font-size="9" fill="#3f5b8b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2015</text>
+  <rect x="651.0" y="411.0" width="40" height="19" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="671.0" y="423.65" font-size="9" fill="#3f5b8b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2016</text>
+  <rect x="691.0" y="411.0" width="40" height="19" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="711.0" y="423.65" font-size="9" fill="#3f5b8b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2017</text>
+  <rect x="731.0" y="411.0" width="18" height="19" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="740.0" y="423.65" font-size="9" fill="#3f5b8b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">…</text>
+  <rect x="749.0" y="411.0" width="40" height="19" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="769.0" y="423.65" font-size="9" fill="#3f5b8b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2023</text>
+  </g>
+  <line x1="44" y1="466" x2="836" y2="466" stroke="#e6e1d8"/>
+  <g>
+    <circle cx="57" cy="518" r="13" fill="#2b2b2b"/>
+  <text x="57" y="523.0" font-size="13" fill="#fbfaf7" font-weight="700" text-anchor="middle">5</text>
+  <text x="82" y="503.0" font-size="14" fill="#2b2b2b" font-weight="700">exc</text>
+  <text x="82" y="525.0" font-size="12.5" fill="#3f5b8b" font-family="ui-monospace, Menlo, Consolas, monospace">pd.DataFrame({"År": reduced_col, "perc": reduced_row})</text>
+  <text x="82" y="546.0" font-size="12.5" fill="#6b6b6b">årstall og tall settes sammen til en ny dataramme på to kolonner</text>
+  <rect x="656.0" y="478.0" width="54" height="16" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="683.0" y="489.15" font-size="9" fill="#6b6b6b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">År</text>
+  <rect x="710.0" y="478.0" width="34" height="16" fill="#eef2f8" stroke="#c9c3b8"/>
+  <text x="727.0" y="489.15" font-size="9" fill="#6b6b6b" font-weight="700" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">perc</text>
+  <rect x="656.0" y="494.0" width="54" height="16" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="683.0" y="505.15" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2015</text>
+  <rect x="710.0" y="494.0" width="34" height="16" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="727.0" y="505.15" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">78</text>
+  <rect x="656.0" y="510.0" width="54" height="16" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="683.0" y="521.15" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2016</text>
+  <rect x="710.0" y="510.0" width="34" height="16" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="727.0" y="521.15" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">80</text>
+  <rect x="656.0" y="526.0" width="54" height="16" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="683.0" y="537.15" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">…</text>
+  <rect x="710.0" y="526.0" width="34" height="16" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="727.0" y="537.15" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">…</text>
+  <rect x="656.0" y="542.0" width="54" height="16" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="683.0" y="553.15" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">Y2023</text>
+  <rect x="710.0" y="542.0" width="34" height="16" fill="#ffffff" stroke="#c9c3b8"/>
+  <text x="727.0" y="553.15" font-size="9" fill="#2b2b2b" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">85</text>
+  </g>
+  <line x1="44" y1="570" x2="836" y2="570" stroke="#e6e1d8"/>
+  <g>
+    <circle cx="57" cy="634" r="13" fill="#2b2b2b"/>
+  <text x="57" y="639.0" font-size="13" fill="#fbfaf7" font-weight="700" text-anchor="middle">6</text>
+  <text x="82" y="619.0" font-size="14" fill="#2b2b2b" font-weight="700">device_chart</text>
+  <text x="82" y="641.0" font-size="12.5" fill="#3f5b8b" font-family="ui-monospace, Menlo, Consolas, monospace">alt.layer(pie, text).save(f"{kommune}.html")</text>
+  <text x="82" y="662.0" font-size="12.5" fill="#6b6b6b">mark_arc tegner kaka, mark_text legger tallene på radius 100, og lagene slås sammen</text>
+  <path d="M 700.0 634.0 L 700.0 592.0 A 42 42 0 0 1 726.0 601.0 Z" fill="#4c78a8" stroke="#fbfaf7" stroke-width="1.2"/>
+  <text x="717.3670785514183" y="586.9262086257804" font-size="9" fill="#605E5C" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">78</text>
+  <path d="M 700.0 634.0 L 726.0 601.0 A 42 42 0 0 1 741.0 624.9 Z" fill="#f58518" stroke="#fbfaf7" stroke-width="1.2"/>
+  <text x="744.8850011008622" y="608.8160209307556" font-size="9" fill="#605E5C" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">80</text>
+  <path d="M 700.0 634.0 L 741.0 624.9 A 42 42 0 0 1 737.7 652.6 Z" fill="#e45756" stroke="#fbfaf7" stroke-width="1.2"/>
+  <text x="752.6198546247438" y="643.3364737252542" font-size="9" fill="#605E5C" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">79</text>
+  <path d="M 700.0 634.0 L 737.7 652.6 A 42 42 0 0 1 717.4 672.2 Z" fill="#72b7b2" stroke="#fbfaf7" stroke-width="1.2"/>
+  <text x="736.9110620546827" y="675.0338467420187" font-size="9" fill="#605E5C" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">80</text>
+  <path d="M 700.0 634.0 L 717.4 672.2 A 42 42 0 0 1 688.6 674.4 Z" fill="#54a24b" stroke="#fbfaf7" stroke-width="1.2"/>
+  <text x="704.0791763520373" y="689.8427887255109" font-size="9" fill="#605E5C" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">82</text>
+  <path d="M 700.0 634.0 L 688.6 674.4 A 42 42 0 0 1 665.4 657.8 Z" fill="#eeca3b" stroke="#fbfaf7" stroke-width="1.2"/>
+  <text x="669.1786418645194" y="680.1166311611244" font-size="9" fill="#605E5C" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">81</text>
+  <path d="M 700.0 634.0 L 665.4 657.8 A 42 42 0 0 1 658.3 628.8 Z" fill="#b279a2" stroke="#fbfaf7" stroke-width="1.2"/>
+  <text x="648.5151282743712" y="649.5820500474108" font-size="9" fill="#605E5C" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">85</text>
+  <path d="M 700.0 634.0 L 658.3 628.8 A 42 42 0 0 1 672.1 602.6 Z" fill="#ff9da6" stroke="#fbfaf7" stroke-width="1.2"/>
+  <text x="653.0789424331556" y="612.3542223330472" font-size="9" fill="#605E5C" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">84</text>
+  <path d="M 700.0 634.0 L 672.1 602.6 A 42 42 0 0 1 700.0 592.0 Z" fill="#9d755d" stroke="#fbfaf7" stroke-width="1.2"/>
+  <text x="681.140694537446" y="587.4689330069492" font-size="9" fill="#605E5C" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">85</text>
+  </g>
+</svg>
